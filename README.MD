@@ -30,9 +30,9 @@ the only flag required is the base flag , if  you dont define a limit flag , the
 ## Example 
 
 
-##create 
+## create 
 * `node app.js create -b 5 -l 10`
 this have to crete a file with the multiplication table of number 5 until 10 on the tables folder 
-##list 
+## list 
 * `node app.js list -b 5 -l 10`
 this have to print the multiplication table of number 5 until 10
