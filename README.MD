@@ -1,4 +1,4 @@
-# Yargs example
+# Basic calculator example in nodeJS CLI using yargs commands
 
 ## About 
 Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface,
