@@ -18,7 +18,7 @@ the command create has defined two flags for this examples
 
 
 `--base or -b` with this flag we define the multiplication base \
-`--limit or -l` with this flag we define the multiplication limit \
+`--limit or -l` with this flag we define the multiplication limit 
 
 the only flag required is the base flag , if  you dont define a limit flag , the default value will be 10
 
