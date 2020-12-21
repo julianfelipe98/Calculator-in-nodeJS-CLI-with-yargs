@@ -9,6 +9,8 @@ const fs =require('fs');
  */
 let writeFile=(base,data)=>{
     return new Promise((resolve,reject)=>{
+        if (!fs.existsSync('./tables')) fs.mkdirSync('./tables')
+            
         fs.writeFile(`tables/table${base}.txt`, data, (err)=>{
             if (err)
                 reject(err)
