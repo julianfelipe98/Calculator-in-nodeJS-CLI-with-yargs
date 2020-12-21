@@ -15,20 +15,25 @@ the only flag required is the base flag , if  you dont define a limit flag , the
 ## list 
 the list command allows us to see the multiplication table on console 
 the command create has defined two flags for this examples 
-`--base or -b` with this flag we define the multiplication base
-`--limit or -l` with this flag we define the multiplication limit
+
+
+`--base or -b` with this flag we define the multiplication base \
+`--limit or -l` with this flag we define the multiplication limit 
+
 the only flag required is the base flag , if  you dont define a limit flag , the default value will be 10
 
 
 ## Getting started 
 
-* Clone the repo 
+* Clone the repo https://github.com/julianfelipe98/Example-yargs
 * In the proyect directory : `npm install`
 
 ## Example 
-##create 
+
+
+## create 
 * `node app.js create -b 5 -l 10`
 this have to crete a file with the multiplication table of number 5 until 10 on the tables folder 
-##list 
+## list 
 * `node app.js list -b 5 -l 10`
 this have to print the multiplication table of number 5 until 10
