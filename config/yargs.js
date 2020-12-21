@@ -1,3 +1,4 @@
+
 const yargs = require("yargs");
 
 const opts = {
@@ -5,10 +6,10 @@ const opts = {
   limit: { alias: "l", default: 10 },
 };
 const argv = require("yargs")
-  .command("list", "Imprime en consola la tabla de multiplicar", opts)
+  .command("list", "show in the console the multiplication table", opts)
   .command(
     "create",
-    "crea el archivo de la tabla de multiplicar en la carpeta del proyecto",
+    "make the multiplication file in the tables folder",
     opts
   ).argv;
 
