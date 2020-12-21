@@ -26,11 +26,15 @@ let writeFile=(base,data)=>{
  * @returns {multiplication product}
  */
 let multiply=(base,limit)=>{
-    let data='';
-    for (let i = 1; i <= limit; i++) {
-        data +=`${base}*${i}=${base*i} \n`;
+    if(Number(base)){
+        let data='';
+        for (let i = 1; i <= limit; i++) {
+            data +=`${base}*${i}=${base*i} \n`;
+        }
+        return data;
+    }else{
+        return `el valor ${base} no es un numero`
     }
-    return data;
 }
 /**
  * create the multiplication on the tables folder 
